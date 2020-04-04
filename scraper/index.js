@@ -1,62 +1,32 @@
-const Puppeteer = require ('puppeteer');
+const Scraper = require('./scrape');
 
-var conexoesAtivas = []
-var conexoesFechadas = []
+var activeConnections = [];
+var closedConnections = [];
 
-let getActiveConnections = async () => {
-    const browser = await Puppeteer.launch({
-        args: [
-            '--ignore-certificate-errors',
-        ],
-        headless: true,
-        defaultViewport: null,
-        ignoreHTTPSErrors: false
-    });
-    const page = await browser.newPage();
-    page.setExtraHTTPHeaders({
-        'authorization': 'Basic cm9vdDpiclQxMDEyKg==',
-    });
-    await page.goto('https://192.168.0.5:8181/connection-monitor.php');    
-    // Scrape
-    const result = await page.evaluate(() => {
-      const conexoes = [];
-      const ignorar = [ "127.0.0.1", "192.168.0.2", "192.168.0.5"]
-      let contRepetidos = 0;
-      document.querySelectorAll('table.listview-1 > tbody > tr').forEach(
-          linhas => {
-            linha = linhas.querySelectorAll('th');
-
-                const data = Date();
-                const origem = linha[2].innerText;
-                const destino = linha[3].innerText;
-                const id = origem+destino;
-                if ((conexoes.findIndex(con => con.id == id) == -1) && (!ignorar.includes(origem) && !ignorar.includes(destino)))
-                {            
-                    const conexao = { id, data, origem, destino, };
-                    conexoes.push(conexao);
-                }
-            }
-          );
-      return conexoes;
-    });
-    
-    browser.close()
-    return result
-};
-   
-getActiveConnections().then((value) => {
-    console.log(value);
-   // imprimir(value);// sucesso!
-});
-
-
-
-function imprimir (texto){
-    texto.forEach(conn =>{
-        conn.status = "ativo";
-    });
-    console.log(texto);
+async function teste()
+{    
+    const oldList = activeConnections.map(function(x) {
+        return x;
+      });
+    activeConnections = await Scraper.getActiveConnections();
+    getClosed(oldList);
 }
 
+function getClosed(oldList){ //in old but not in new
+    
+    oldList.forEach(element => {
+        if(activeConnections.findIndex(con => con.id == element.id) == -1){
+            closedConnections.push(element);
+        }
+    });
 
+    console.log(`Tamanho de ativos: ${activeConnections.length}`);
+    console.log(`Tamanho de fechados: ${closedConnections.length}`);
+    console.log(closedConnections);
+}
 
+teste();
+teste();
+teste();
+teste();
+teste();
