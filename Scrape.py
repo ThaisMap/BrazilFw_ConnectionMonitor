@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 from urllib3.exceptions import InsecureRequestWarning
 from datetime import datetime
+import socket
 
 def get_connections():
     requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)

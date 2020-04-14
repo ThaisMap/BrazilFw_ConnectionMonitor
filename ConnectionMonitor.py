@@ -1,6 +1,7 @@
 import Scrape
 from datetime import datetime
-import socket
+from ConvertIps import ConvertIps
+converter = ConvertIps()
 
 def get_ids(connections):
     ids = [x['id'] for x in connections]
@@ -33,12 +34,18 @@ def get_destiny_names(connections):
         except:
             print("Failure")
 
+def get_origin_names(connections):
+    for conn in connections:
+        conn['hostname'] = converter.convert_local_ip(conn['origem'])
+        print(conn)
+
 
 def main():
-    closed_connections = monitoring_loop(4)
-    for c in closed_connections:
-        print(c)
-    get_destiny_names(closed_connections)
+    closed_connections = monitoring_loop(3)
+    print("Getting hostnames")
+    get_origin_names(closed_connections)
+    # for c in closed_connections:
+    #     print(c)
 
 if __name__ == "__main__":
     main()
