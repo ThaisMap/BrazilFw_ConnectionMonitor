@@ -2,16 +2,17 @@ from bs4 import BeautifulSoup
 import requests
 from urllib3.exceptions import InsecureRequestWarning
 from datetime import datetime
-import socket
+import DealWithFiles
 
 def get_connections():
     requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
     url = 'https://192.168.0.5:8181/connection-monitor.php'
-    headers = {'authorization': 'Basic cm9vdDpiclQxMDEyKg=='}
+    headers = DealWithFiles.read_authorization_header()
     r = requests.get(url, headers=headers, verify=False)
     soup = BeautifulSoup(r.text, "html.parser")
     rows = soup.select('table.listview-1 > tbody > tr')
     connections = []
+
     for row in rows:
         cell = row.find_all('th')
         origin = cell[2].string
