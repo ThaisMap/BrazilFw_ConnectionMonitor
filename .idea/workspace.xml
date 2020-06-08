@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="515c6e75-8b41-4b2a-bf25-1e5525dabcb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/thais_maria.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arquivos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monitoramento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectionMonitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectionMonitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConvertIps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertIps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DealWithFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/DealWithFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectionMonitor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConvertIps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConverteIps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DealWithFiles.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrape.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,16 +50,17 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Python.ConnectionMonitor">
-    <configuration name="ConnectionMonitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Monitoramento">
+    <configuration name="Arquivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BrazilFw_ConnectionMonitor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConnectionMonitor.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\thais.maria.RODOMINAS\Documents\GitHub\BrazilFw_ConnectionMonitor\Arquivos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DealWithFiles (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LidaComArquivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BrazilFw_ConnectionMonitor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DealWithFiles.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\thais.maria.RODOMINAS\Documents\GitHub\BrazilFw_ConnectionMonitor\LidaComArquivos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DealWithFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Monitoramento" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BrazilFw_ConnectionMonitor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +114,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\thais.maria.RODOMINAS\Documents\GitHub\BrazilFw_ConnectionMonitor\DealWithFiles.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\thais.maria.RODOMINAS\Documents\GitHub\BrazilFw_ConnectionMonitor\Monitoramento.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scrape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BrazilFw_ConnectionMonitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,9 +146,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ConnectionMonitor" />
-        <item itemvalue="Python.DealWithFiles (1)" />
-        <item itemvalue="Python.DealWithFiles" />
+        <item itemvalue="Python.Monitoramento" />
+        <item itemvalue="Python.Scrape" />
+        <item itemvalue="Python.LidaComArquivos" />
+        <item itemvalue="Python.LidaComArquivos" />
       </list>
     </recent_temporary>
   </component>
@@ -122,46 +166,81 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1328" height="324" key="GridCell.Tab.0.bottom" timestamp="1586984200154">
+    <state x="275" y="25" key="#Notifications" timestamp="1587125338267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="324" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586984200154" />
-    <state width="1328" height="324" key="GridCell.Tab.0.center" timestamp="1586984200154">
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1587125338267" />
+    <state x="462" y="156" key="FileChooserDialogImpl" timestamp="1587042983526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="324" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586984200154" />
-    <state width="1328" height="324" key="GridCell.Tab.0.left" timestamp="1586984200154">
+    <state x="462" y="156" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587042983526" />
+    <state width="1345" height="331" key="GridCell.Tab.0.bottom" timestamp="1587670358513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="324" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586984200154" />
-    <state width="1328" height="324" key="GridCell.Tab.0.right" timestamp="1586984200154">
+    <state width="1345" height="331" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587670358513" />
+    <state width="1345" height="331" key="GridCell.Tab.0.center" timestamp="1587670358513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="324" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586984200154" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1586887081105">
+    <state width="1345" height="331" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587670358513" />
+    <state width="1345" height="331" key="GridCell.Tab.0.left" timestamp="1587670358512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586887081105" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1586887081105">
+    <state width="1345" height="331" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587670358512" />
+    <state width="1345" height="331" key="GridCell.Tab.0.right" timestamp="1587670358513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586887081105" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1586887081104">
+    <state width="1345" height="331" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587670358513" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1587144108265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586887081104" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1586887081105">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587144108265" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1587144108264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586887081105" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586984448123">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587144108264" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1587144108264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586984448123" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587144108264" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1587144108265">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587144108265" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1587141556441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587141556441" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587670542989">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587670542989" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1587125051926">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587125051926" />
+    <state x="530" y="141" key="refactoring.ChangeSignatureDialog" timestamp="1587670902810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="530" y="141" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1587670902810" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586868823923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
